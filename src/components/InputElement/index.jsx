@@ -24,7 +24,7 @@ export default function InputElement() {
   return (
     <div className="input-element">
       <input type="text" className='calc' value={valueCalc} maxLength={8} disabled={true} />
-      <input type="text" placeholder='Type a binary number' value={valueInput} onChange={handleValueInput} maxLength={16}/>
+      <input type="text" placeholder='Type a binary number' value={valueInput} onChange={handleValueInput}/>
     </div>
   );
 };
