@@ -1,0 +1,32 @@
+.input-element {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  font-size: xx-large;
+  color: white;
+}
+
+input {
+  width: 50%;
+  margin-bottom: 1rem;
+  border-radius: 10px 10px;
+  font-size: xx-large;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+}
+.calc {
+  color: #49fb35;
+}
+
+@media only screen and (max-width: 1000px) {
+  input {
+    width: 80%;
+    font-size: large;
+  }
+}

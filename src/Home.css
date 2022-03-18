@@ -1,0 +1,30 @@
+.box {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 50%;
+  min-height: 20%;
+  
+  background-color: rgba(0, 0, 0, 0.9);
+
+  border: solid white;
+  border-radius: 20px 20px;
+  padding-bottom: 10px;
+}
+
+.box > .input-element {
+  width: 100%;
+}
+
+.box > h1 {
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .box {
+    width: 80%;
+  }
+}
